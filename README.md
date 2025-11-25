@@ -1,13 +1,15 @@
 ## Infoga - Email OSINT
 
+**Original repository (Not Available):** [https://github.com/m4ll0k/Infoga]([https://github.com/m4ll0k/Infoga)
+
 Infoga is a tool gathering email accounts informations (ip,hostname,country,...) from different public source (search engines, pgp key servers and shodan) and check if emails was leaked using haveibeenpwned.com API. Is a really simple tool, but very effective for the early stages of a penetration test or just to know the visibility of your company in the Internet.
 
- ![screen](https://raw.githubusercontent.com/m4ll0k/Infoga/master/screen/main.png)
+ ![screen](https://raw.githubusercontent.com/Security-Tools-Alliance/Infoga/master/screen/main.png)
 
 ## Installation
 
 ```
-$ git clone https://github.com/m4ll0k/Infoga.git infoga
+$ git clone https://github.com/Security-Tools-Alliance/Infoga.git infoga
 $ cd infoga
 $ python setup.py install
 $ python infoga.py
@@ -19,14 +21,14 @@ $ python infoga.py
 $ python infoga.py --domain nsa.gov --source all --breach -v 2 --report ../nsa_gov.txt
 ```
 
-![run_1](https://raw.githubusercontent.com/m4ll0k/Infoga/master/screen/run_2.png)
+![run_1](https://raw.githubusercontent.com/Security-Tools-Alliance/Infoga/master/screen/run_2.png)
 
 
 ```
 $ python infoga.py --info m4ll0k@protonmail.com --breach -v 3 --report ../m4ll0k.txt
 ```
 
-![info](https://raw.githubusercontent.com/m4ll0k/Infoga/master/screen/image_5.png)
+![info](https://raw.githubusercontent.com/Security-Tools-Alliance/Infoga/master/screen/image_5.png)
 
 
 ## Support Docker
